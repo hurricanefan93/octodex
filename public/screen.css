@@ -1,8 +1,57 @@
 html {
-  text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+.logo {
+    height: 1.5em;
+    padding: 10px 10px;
+}
+
+.topnav a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    margin: auto;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.topnav {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.catphotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em;
+}
+.catphotos img{
+  border: 2px solid #dcdcdc;
+  margin: 10px;
+  padding: 20px;
+}
+.numbers{
+  color: #cacaca;
+}
+.description{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+    margin: 0;
+    font: 16px / 1 sans-serif;
+}
+@media (max-width: 736px) {
+
 }
