@@ -31,15 +31,22 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
 .catphotos img{
   border: 2px solid #dcdcdc;
-  margin: 10px;
+  margin: 15px;
   padding: 20px;
 }
-.numbers{
-  color: #cacaca;
+
+.box {
+  border-bottom: 1px solid #050505; 
+}
+
+.numbers {
+  color: #777;
 }
 .description{
   display: flex;
@@ -50,7 +57,9 @@ html {
 
 body {
     margin: 0;
-    font: 16px / 1 sans-serif;
+    font: 16px helvetica,arial,sans-serif;
+    font-weight: bold;
+    line-height: 1.4em;
 }
 @media (max-width: 736px) {
 
